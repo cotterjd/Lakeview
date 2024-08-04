@@ -751,6 +751,14 @@ button {
     text-align: center;
 }
 
+.number_h2 {
+    width: 100%;
+    font-size: 30px;
+    color: #1f1f1f;
+    font-weight: bold;
+    text-align: center;
+}
+
 .choose_text {
     width: 70%;
     margin: 0 auto;
