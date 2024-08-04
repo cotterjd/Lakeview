@@ -99,22 +99,42 @@
             <p class="services_text">Book a venue, bedroom, or the whole house and have access to all 30 acres of beautiful landscape and lakefront.</p>
             <div class="services_section_2">
                <div class="row">
-                  <div class="col-md-4">
-                     <div><img src="images/venue_cropped.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Event Venue</a></div>
+                  <div class="col-md-4 d-flex flex-column">
+                     <h3 class="text-center">Venue</h3>
+                     <div><img  data-toggle="modal" data-target="#exampleModal" src="images/venue_cropped.jpg" class="services_img"></div>
+                     <!--<div class="btn_main"><a href="#">Gallery</a></div>-->
+                     <p class="text-center">This venue seats 120 people. Perfect for Weddings. Includes bride and groom rooms and accommodations for the family.</p>
+                     <!-- Modal -->
+                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                              <!--<img src="images/venue_cropped.jpg">
+                              <img src="images/house_cropped.jpg">
+                              <img src="images/room_cropped.jpg">-->
+                              <h5 class="modal-title" id="exampleModalLabel">Photo Gallery</h5>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 d-flex flex-column">
+                     <h3 class="text-center">House</h3>
                      <div><img src="images/house_cropped.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">House</a></div>
+                     <!--<div class="btn_main"><a href="#">Gallery</a></div>-->
+                     <p class="text-center">This 8-bedroom is perfect for a Framily get-togethers or family reunions. Both stories include kitchen and can be completely separate with their own entrances to the outside. House includes pool table and ping-pong table. Bedrooms have direct porch/balcony access.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 d-flex flex-column">
+                     <h3 class="text-center">Room</h3>
                      <div><img src="images/room_cropped.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Room</a></div>
+                     <!--<div class="btn_main"><a href="#">Gallery</a></div>-->
+                     <p class="text-center">Book just a single bedroom. All amenities, including lakefront, are still included. </p>
                   </div>
                </div>
             </div>
          </div>
-         <div class="choose_section layout_padding">
+         <div class="choose_section">
                <h1 class="choose_taital">Call to book!</h1>
                <h2 class="number_h2">(580) 650 8393</h2>
          </div>
