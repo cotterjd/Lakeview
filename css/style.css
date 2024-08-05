@@ -489,6 +489,11 @@ button {
     margin: auto;
 }
 
+.btn_main a {
+    color: #fff !important;
+    cursor: pointer;
+}
+
 
 /* services section end */
 
