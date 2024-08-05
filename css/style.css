@@ -468,6 +468,27 @@ button {
     background-color: #000d10;
 }
 
+.photo-gallery {
+    width: 100vw;
+}
+
+.photos {
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;*/
+}
+
+.modal-dialog {
+    margin: 0;
+}
+
+.carousel-item img {
+    max-height: 800px;
+    display: flex;
+    margin: auto;
+}
+
 
 /* services section end */
 
@@ -905,7 +926,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/footer-bg.jpg);
     height: auto;
     padding-top: 250px;
     background-size: 100% 100%;
