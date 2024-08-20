@@ -4,6 +4,11 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header_section {
+        background-image: url(../images/midres-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
     .header-search {
         padding: 15px 0px;
     }
@@ -13,6 +18,11 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .header_section {
+        background-image: url(../images/mobile-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
     .logo {
         text-align: center;
     }
@@ -85,6 +95,11 @@
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    .header_section {
+        background-image: url(../images/mobile-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -129,6 +144,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header_section {
+        background-image: url(../images/midres-banner-bg.jpg);
         padding: 0px;
         background-size: cover;
     }
@@ -199,25 +215,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header_section {
+        background-image: url(../images/midres-banner-bg.jpg);
         padding: 0px;
         background-size: cover;
     }
     .banner_text {
         width: 100%;
     }
-    .about_taital_main {
-        padding-left: 25px;
-        padding-top: 0px;
-    }
-    .about_text {
-        padding-top: 0px;
-        font-size: 14px;
-    }
     .readmore_bt {
         margin-top: 30px;
-    }
-    .about_img {
-        height: 340px;
     }
     .blog_section {
         background-size: 100% 100%;
@@ -288,7 +294,7 @@
         display: none;
     }
     .header_section {
-        background-image: url(../images/banner-bg.jpg);
+        background-image: url(../images/mobile-banner-bg.jpg);
         background-size: cover;
         padding: 0px;
     }
@@ -357,29 +363,8 @@
     .services_img {
         margin-top: 40px;
     }
-    .about_section {
-        padding: 50px 0px;
-    }
-    .about_taital_main {
-        padding-top: 0px;
-        padding-left: 0px;
-    }
-    .about_text {
-        font-size: 15px;
-    }
-    .about_img {
-        padding-top: 30px;
-    }
     .padding_right_0 {
         padding-right: 15px;
-    }
-    .blog_section {
-        background-image: url(../images/blog-mobile-bg.png);
-        background-size: cover;
-        padding: 50px 0px;
-    }
-    .blog_text {
-        width: 100%;
     }
     .play_icon_main {
         margin-top: 40px;
@@ -487,7 +472,7 @@
         display: none;
     }
     .header_section {
-        background-image: url(../images/banner-bg.jpg);
+        background-image: url(../images/mobile-banner-bg.jpg);
         background-size: cover;
         padding: 0px; 
     }
