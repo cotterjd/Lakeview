@@ -217,7 +217,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -407,7 +407,7 @@ button {
 .services_section {
     width: 100%;
     float: left;
-    padding-bottom: 90px;
+    /*padding-bottom: 90px;*/
 }
 
 .services_taital {

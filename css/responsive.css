@@ -17,278 +17,6 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
-    .header_section {
-        background-image: url(../images/mobile-banner-bg.jpg);
-        padding: 0px;
-        background-size: cover;
-    }
-    .logo {
-        text-align: center;
-    }
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .mg {
-        margin: 0px 0px;
-    }
-    .menu-area-main {
-        height: 256px;
-        overflow-y: auto;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        height: 19px;
-    }
-    .category-box.women-box {
-        display: none;
-    }
-    .cart-box {
-        display: inline-block;
-        margin: 0px 30px;
-    }
-    .wish-box {
-        float: none;
-        margin: 0px 30px;
-        display: inline-block;
-    }
-    .menu-add {
-        display: none;
-    }
-    .category-box {
-        display: none;
-    }
-    .mean-container .mean-nav ul li ol {
-        padding: 0px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 10px 20px;
-        width: 94.8%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 92%;
-        padding: 1em 4%;
-    }
-    .mean-container .mean-nav ul li li li a {
-        width: 100%;
-    }
-    .header-search {
-        padding: 15px 0px;
-    }
-    #collapseFilter.d-md-block {
-        padding: 30px 0px;
-    }
-}
-
-
-/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
-
-@media only screen and (min-width: 280px) and (max-width: 599px) {
-    .header_section {
-        background-image: url(../images/mobile-banner-bg.jpg);
-        padding: 0px;
-        background-size: cover;
-    }
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 1em 4%;
-        width: 92%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 90%;
-        padding: 1em 5%;
-    }
-    .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
-        text-transform: capitalize;
-        width: 100%;
-    }
-    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
-        border: none;
-        float: none;
-    }
-    .menu-area-main {
-        height: 45px;
-        overflow-y: auto;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        top: 0;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
-    .header_section {
-        width: 100%;
-        float: left;
-        background-image: url(../images/large-banner-bg.jpg);
-        height: auto;
-        background-size: 100%;
-        padding: 0px 0px 20px 0px;
-        background-repeat: no-repeat;
-    }
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .header_section {
-        background-image: url(../images/midres-banner-bg.jpg);
-        padding: 0px;
-        background-size: cover;
-    }
-    .banner_text {
-        width: 100%;
-    }
-    .about_taital_main {
-        padding-left: 25px;
-        padding-top: 40px;
-    }
-    .about_text {
-        padding-top: 0px;
-        font-size: 14px;
-    }
-    .readmore_bt {
-        margin-top: 30px;
-    }
-    .blog_section {
-        background-size: 100% 100%;
-        padding-bottom: 220px;
-        padding-top: 160px;
-    }
-    .play_icon_main {
-        margin-top: 50px;
-    }
-    .client_taital {
-        padding-top: 0px;
-    }
-    .box_left {
-        width: 60%;
-    }
-    .box_right {
-        width: 40%;
-    }
-    .lorem_text {
-        padding: 100px 40px;
-    }
-    .client_taital_left {
-        width: 50%;
-        float: left;
-    }
-    .client_taital_right {
-        width: 50%;
-        float: left;
-        padding-left: 20px;
-    }
-    .client_section_2 {
-        padding: 40px 30px;
-    }
-    .client_name {
-        padding-top: 25px;
-    }
-    .choose_section {
-        padding-top: 0px;
-    }
-    .choose_text {
-        width: 100%;
-    }
-    .footer_section {
-        padding-top: 270px;
-        background-size: cover;
-        padding-bottom: 30px;
-    }
-    .input_btn_main {
-        width: 60%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .header_section {
-        background-image: url(../images/midres-banner-bg.jpg);
-        padding: 0px;
-        background-size: cover;
-    }
-    .banner_text {
-        width: 100%;
-    }
-    .readmore_bt {
-        margin-top: 30px;
-    }
-    .blog_section {
-        background-size: 100% 100%;
-        padding-bottom: 220px;
-        padding-top: 160px;
-    }
-    .play_icon_main {
-        margin-top: 50px;
-    }
-    .client_taital {
-        padding-top: 0px;
-    }
-    .box_left {
-        width: 60%;
-    }
-    .box_right {
-        width: 40%;
-    }
-    .lorem_text {
-        padding: 30px 10px;
-    }
-    .client_taital_left {
-        width: 50%;
-        float: left;
-    }
-    .client_taital_right {
-        width: 50%;
-        float: left;
-        padding-left: 20px;
-    }
-    .client_section_2 {
-        padding: 40px 30px;
-    }
-    .client_name {
-        padding-top: 25px;
-    }
-    .choose_section {
-        padding-top: 0px;
-    }
-    .choose_text {
-        width: 100%;
-    }
-    .footer_section {
-        padding-top: 230px;
-        background-size: cover;
-        padding-bottom: 30px;
-    }
-    .input_btn_main {
-        width: 90%;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, .5);
         border-color: transparent;
@@ -309,6 +37,11 @@
         background-image: url(../images/mobile-banner-bg.jpg);
         background-size: cover;
         padding: 0px;
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-767.jpg);
+        background-size: cover;
+        padding: 50px 0px;
     }
     .navbar-toggler {
         background-color: #ffffff;
@@ -427,11 +160,6 @@
     .getquote_bt {
         margin: 0 auto;
     }
-    .footer_section {
-        background-image: url(../images/footer-bg.jpg);
-        background-size: cover;
-        padding: 50px 0px;
-    }
     .input_btn_main {
         width: 100%;
         display: inherit;
@@ -464,6 +192,284 @@
         width: 100%;
         padding-top: 90px;
     }
+    .footer_section {
+        background-image: url(../images/footer-bg-767.jpg);
+        background-size: cover;
+        padding: 50px 0px;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .header_section {
+        background-image: url(../images/mobile-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-599.jpg);
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+    .header_section {
+        width: 100%;
+        float: left;
+        background-image: url(../images/large-banner-bg.jpg);
+        height: auto;
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-1900.jpg);
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_section {
+        background-image: url(../images/midres-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-1199.jpg);
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .about_taital_main {
+        padding-left: 25px;
+        padding-top: 40px;
+    }
+    .about_text {
+        padding-top: 0px;
+        font-size: 14px;
+    }
+    .readmore_bt {
+        margin-top: 30px;
+    }
+    .blog_section {
+        background-size: 100% 100%;
+        padding-bottom: 220px;
+        padding-top: 160px;
+    }
+    .play_icon_main {
+        margin-top: 50px;
+    }
+    .client_taital {
+        padding-top: 0px;
+    }
+    .box_left {
+        width: 60%;
+    }
+    .box_right {
+        width: 40%;
+    }
+    .lorem_text {
+        padding: 100px 40px;
+    }
+    .client_taital_left {
+        width: 50%;
+        float: left;
+    }
+    .client_taital_right {
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+    }
+    .client_section_2 {
+        padding: 40px 30px;
+    }
+    .client_name {
+        padding-top: 25px;
+    }
+    .choose_section {
+        padding-top: 0px;
+    }
+    .choose_text {
+        width: 100%;
+    }
+    .footer_section {
+        padding-top: 270px;
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+    .input_btn_main {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_section {
+        background-image: url(../images/midres-banner-bg.jpg);
+        padding: 0px;
+        background-size: cover;
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-991.jpg);
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .readmore_bt {
+        margin-top: 30px;
+    }
+    .blog_section {
+        background-size: 100% 100%;
+        padding-bottom: 220px;
+        padding-top: 160px;
+    }
+    .play_icon_main {
+        margin-top: 50px;
+    }
+    .client_taital {
+        padding-top: 0px;
+    }
+    .box_left {
+        width: 60%;
+    }
+    .box_right {
+        width: 40%;
+    }
+    .lorem_text {
+        padding: 30px 10px;
+    }
+    .client_taital_left {
+        width: 50%;
+        float: left;
+    }
+    .client_taital_right {
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+    }
+    .client_section_2 {
+        padding: 40px 30px;
+    }
+    .client_name {
+        padding-top: 25px;
+    }
+    .choose_section {
+        padding-top: 0px;
+    }
+    .choose_text {
+        width: 100%;
+    }
+    .footer_section {
+        padding-top: 230px;
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+    .input_btn_main {
+        width: 90%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -487,6 +493,9 @@
         background-image: url(../images/mobile-banner-bg.jpg);
         background-size: cover;
         padding: 0px; 
+    }
+    .footer_section {
+        background-image: url(../images/footer-bg-575.jpg);
     }
     .navbar-toggler {
         background-color: #ffffff;
