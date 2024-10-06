@@ -529,6 +529,12 @@
     }
     .navbar-toggler {
         background-color: #ffffff;
+        position: absolute;
+        right: 0;
+    }
+    #navbarNav {
+        width: 90vw;
+        background:#93aec5; 
     }
     .logo {
         display: none;
