@@ -192,11 +192,6 @@
         width: 100%;
         padding-top: 90px;
     }
-    .footer_section {
-        background-image: url(../images/footer-bg-767.jpg);
-        background-size: cover;
-        padding: 50px 0px;
-    }
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -524,9 +519,6 @@
         background-size: cover;
         padding: 0px; 
     }
-    .footer_section {
-        background-image: url(../images/footer-bg-575.jpg);
-    }
     .navbar-toggler {
         background-color: #ffffff;
         position: absolute;
@@ -663,7 +655,7 @@
         margin: 0 auto;
     }
     .footer_section {
-        background-image: url(../images/footer-bg.jpg);
+        background-image: url(../images/footer-bg-575.jpg);
         background-size: cover;
         padding: 50px 0px;
     }
