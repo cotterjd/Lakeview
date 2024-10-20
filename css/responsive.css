@@ -39,7 +39,7 @@
         padding: 0px;
     }
     .footer_section {
-        background-image: url(../images/footer-bg-767.jpg);
+        background-image: url(../images/footer-bg-1199.jpg);
         background-size: cover;
         padding: 50px 0px;
     }
@@ -438,7 +438,10 @@
         background-size: cover;
     }
     .footer_section {
-        background-image: url(../images/footer-bg-991.jpg);
+        background-image: url(../images/footer-bg-1199.jpg);
+        padding-top: 230px;
+        background-size: cover;
+        padding-bottom: 30px;
     }
     .banner_text {
         width: 100%;
@@ -486,11 +489,6 @@
     }
     .choose_text {
         width: 100%;
-    }
-    .footer_section {
-        padding-top: 230px;
-        background-size: cover;
-        padding-bottom: 30px;
     }
     .input_btn_main {
         width: 90%;
