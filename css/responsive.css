@@ -1,14 +1,96 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
+/* TODO: make smaller images for this resolution */
 @media only screen and (min-width: 1200px) and (max-width: 1900px) {
     .header_section {
         width: 100%;
         float: left;
-        background-image: url(../images/large-banner-bg.jpg);
-        height: auto;
+        background-image: url(../images/IMG_20241108_170044.jpg);
         background-size: 100%;
         padding: 0px 0px 20px 0px;
         background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section1 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/banner-bg-2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section2 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/land_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section3 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/house44_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section4 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/venue4_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section5 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/dock_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section6 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/house6_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section7 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/venue3_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section8 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/lake_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .header_section9 {
+        width: 100%;
+        float: left;
+        background-image: url(../images/2560/field_2560.jpg);
+        background-size: 100%;
+        padding: 0px 0px 20px 0px;
+        background-repeat: no-repeat;
+        height: 800px;
     }
     .footer_section {
         background-image: url(../images/footer-bg-1900.jpg);
