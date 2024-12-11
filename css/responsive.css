@@ -680,6 +680,10 @@
 }
 
 @media (max-width: 599px) {
+    .top-banner {
+        font-size: 16px;
+        padding: 0px;
+    }
     .header_section {
         width: 100%;
         float: left;
