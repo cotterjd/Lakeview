@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 /* TODO: make smaller images for this resolution */
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+@media only screen and (min-width: 992px) and (max-width: 1900px) {
     .header_section {
         width: 100%;
         float: left;
@@ -679,7 +679,7 @@
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 767px) {
     .top-banner {
         font-size: 16px;
         padding: 0px;
