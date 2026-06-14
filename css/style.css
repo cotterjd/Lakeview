@@ -1039,6 +1039,29 @@ button {
     color: #e27141;
 }
 
+/* Address: icon + text share one link; hover either highlights both */
+.map-link {
+    display: block;
+    text-decoration: none;
+}
+
+.map-link .fa-map-marker {
+    font-size: 40px;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+.map-link .call_text,
+.map-link .call_text a {
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+.map-link:hover .fa-map-marker,
+.map-link:hover .call_text {
+    color: #e27141;
+}
+
 
 /* footer section end */
 
