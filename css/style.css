@@ -1039,26 +1039,26 @@ button {
     color: #e27141;
 }
 
-/* Address: icon + text share one link; hover either highlights both */
-.map-link {
+/* Contact rows: icon + text share one link; hover either highlights both */
+.contact-link {
     display: block;
     text-decoration: none;
 }
 
-.map-link .fa-map-marker {
+.contact-link .fa {
     font-size: 40px;
     color: #ffffff;
     transition: color 0.2s ease;
 }
 
-.map-link .call_text,
-.map-link .call_text a {
+.contact-link .call_text,
+.contact-link .call_text a {
     color: #ffffff;
     transition: color 0.2s ease;
 }
 
-.map-link:hover .fa-map-marker,
-.map-link:hover .call_text {
+.contact-link:hover .fa,
+.contact-link:hover .call_text {
     color: #e27141;
 }
 
